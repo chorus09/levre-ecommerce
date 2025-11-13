@@ -1,6 +1,8 @@
 import "./globals.css";
 import { ReactNode } from "react";
 import { Poppins } from "next/font/google";
+import { MobileHeader } from "@/components/mobile/MobileHeader";
+import { MobileDrawer } from "@/components/mobile/MobileDrawer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -10,7 +12,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body className="bg-background text-text-black">
+      <body className="bg-(--color-background) text-(--color-text-black)">
         <div className="mx-auto max-w-[1440px] px-4">
           {children}
         </div>
