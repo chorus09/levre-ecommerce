@@ -1,0 +1,82 @@
+[
+  {
+    "id": "black-woolen-hood",
+    "name": "Black woolen hood",
+    "price": 95,
+    "category": "EVERY DAY",
+    "description": "Minimalist woolen hood suitable for everyday use.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "traveling-black-bag",
+    "name": "Traveling black bag",
+    "price": 250,
+    "category": "TRAVEL",
+    "description": "Durable and elegant travel bag with spacious compartments.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "unisex-gloves",
+    "name": "Unisex gloves",
+    "price": 70,
+    "category": "FASHION",
+    "description": "Classic unisex leather gloves.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "komodo-watch",
+    "name": "KOMODO watch",
+    "price": 540,
+    "category": "EVERY DAY",
+    "description": "Premium minimalistic wristwatch.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "black-boss-bracelet",
+    "name": "Black BOSS bracelet",
+    "price": 750,
+    "category": "FASHION",
+    "description": "High-end bracelet crafted for a refined style.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "mango-jacket",
+    "name": "MANGO jacket",
+    "price": 330,
+    "category": "FASHION",
+    "description": "Lightweight jacket suitable for multiple occasions.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "levre-pants",
+    "name": "LEVRÉ pants",
+    "price": 85,
+    "category": "EVERY DAY",
+    "description": "Comfortable minimalist pants.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "woolen-scarf",
+    "name": "Woolen scarf",
+    "price": 95,
+    "category": "FASHION",
+    "description": "Soft wool scarf designed for both fashion and travel.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "levre-iphone-case",
+    "name": "LEVRÉ iPhone case",
+    "price": 45,
+    "category": "EVERY DAY",
+    "description": "Minimal matte black iPhone case.",
+    "images": ["/placeholder.png"]
+  },
+  {
+    "id": "levre-headphones",
+    "name": "Headphones",
+    "price": 115,
+    "category": "WORK",
+    "description": "High-fidelity headphones for immersive listening.",
+    "images": ["/placeholder.png"]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "priceRange": {
+    "min": 0,
+    "max": 1000
+  },
+  "categories": [
+    "EVERY DAY",
+    "FASHION",
+    "TRAVEL",
+    "WORK"
+  ]
+}
