@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import { MobileHeader } from "@/components/mobile/MobileHeader";
 import { MobileDrawer } from "@/components/mobile/MobileDrawer";
 import { DesktopHeader } from "@/components/DesktopHeader";
+import { Footer } from "@/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main className="mx-auto max-w-[1440px] px-4 py-6">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
