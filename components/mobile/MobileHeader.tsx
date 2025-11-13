@@ -7,23 +7,28 @@ export function MobileHeader() {
   const open = useMobileMenu((state) => state.open);
 
   return (
-    <header className="w-full flex items-center justify-between h-16 px-4 bg-background border-b border-gray-200">
+    <header className="
+      md:hidden 
+      flex 
+      items-center 
+      justify-between 
+      h-[70px] 
+      px-5 
+      border-b 
+      border-[#e3e3e3]
+      bg-(--color-background)
+    ">
       
-      {/* Hamburger button */}
-      <button
-        onClick={open}
-        className="flex flex-col space-y-1"
-      >
-        <span className="w-6 h-0.5 bg-(--color-text-black)" />
-        <span className="w-6 h-0.5 bg-(--color-text-black)" />
-        <span className="w-6 h-0.5 bg-(--color-text-black)" />
+      {/* Hamburger */}
+      <button onClick={open}>
+        <PlaceholderRed className="w-6 h-6" />
       </button>
 
-      {/* Logo placeholder */}
+      {/* Logo */}
       <PlaceholderRed className="w-24 h-6" />
 
-      {/* Right side empty for now */}
-      <div className="w-6 h-6" />
+      {/* Cart icon */}
+      <PlaceholderRed className="w-6 h-6" />
     </header>
   );
 }
