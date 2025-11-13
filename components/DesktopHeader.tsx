@@ -10,14 +10,12 @@ export function DesktopHeader() {
       items-center 
       justify-between 
       h-[100px] 
-      px-10 
-      border-b 
-      border-[#e3e3e3]
+      px-18 
       bg-(--color-background)
       font-medium
     ">
       {/* Left side */}
-      <div className="flex items-center space-x-6">
+      <div className="flex items-center space-x-20">
 
         {/* Hamburger */}
         <PlaceholderRed className="w-6 h-6" />
@@ -32,7 +30,7 @@ export function DesktopHeader() {
       <PlaceholderRed className="w-32 h-8" />
 
       {/* Right side */}
-      <div className="flex items-center space-x-8 text-sm text-(--color-text-dark)">
+      <div className="flex items-center space-x-20 text-sm text-(--color-text-dark)">
         <button className="hover:text-(--color-text-black)">
           Cart (2)
         </button>

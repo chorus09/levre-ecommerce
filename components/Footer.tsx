@@ -4,7 +4,7 @@ import { PlaceholderRed } from "./PlaceholderRed";
 
 export function Footer() {
   return (
-    <footer className="w-full border-t border-[#e3e3e3] bg-(--color-background) mt-20 py-10">
+    <footer className="w-full border-t border-[#e3e3e3] bg-(--color-background) mt-20 py-10 px-28">
 
       {/* Mobile */}
       <div className="flex flex-col items-center md:hidden space-y-6">
